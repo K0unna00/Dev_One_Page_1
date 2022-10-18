@@ -1,36 +1,22 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-
 * ul {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
   width: 1170px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h2 {
@@ -45,36 +31,26 @@ h2 {
   background-color: black;
   height: 70px;
 }
-
 .discount .container {
   height: 100%;
 }
-
 .discount .container img {
   height: 70px;
 }
-
 .discount .container .text {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   color: white;
 }
-
 .discount .cross-button {
   width: 33px;
   height: 33px;
   border-radius: 50%;
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 18px;
   right: 25px;
@@ -83,24 +59,15 @@ h2 {
 header {
   margin: 38px;
 }
-
 header .img {
   width: 144px;
 }
-
 header nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   gap: 32px;
 }
-
 header button {
   width: 168px;
   height: 48px;
@@ -113,44 +80,27 @@ header button {
 main {
   margin-top: 53px;
 }
-
 main .hero {
   height: 568px;
   background: #F7F7F7;
   border-radius: 48px;
   padding: 110px 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 main .hero .content {
   width: 420px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   height: 340px;
 }
-
 main .hero .content .title {
   font-weight: 700;
   font-size: 44px;
   line-height: 50px;
 }
-
 main .hero .content button {
   width: 168px;
   height: 48px;
@@ -159,17 +109,14 @@ main .hero .content button {
   border: 0;
   font-weight: bold;
 }
-
 main .statistics {
   margin-top: 173px;
 }
-
 main .statistics ul li .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 38px;
 }
-
 main .statistics ul li .text {
   margin-top: 11px;
   font-weight: 400;
@@ -180,48 +127,29 @@ main .statistics ul li .text {
 
 .course {
   margin-top: 140px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .course ul {
   margin-top: 42px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 30px;
 }
-
 .course ul li {
   width: 570px;
   height: 351px;
   padding: 40px 0 30px 40px;
   background: #F7F7F7;
   border-radius: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .course ul li .content {
   width: 360px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .course ul li .content .duration {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -233,14 +161,12 @@ main .statistics ul li .text {
   line-height: 16px;
   padding: 4px 14px;
 }
-
 .course ul li .content .title {
   margin-bottom: 12px;
   font-size: 28px;
   font-weight: 700;
   line-height: 32px;
 }
-
 .course ul li .content .text {
   margin-bottom: 43px;
   font-size: 18px;
@@ -248,7 +174,6 @@ main .statistics ul li .text {
   line-height: 24px;
   color: #717171;
 }
-
 .course ul li .content button {
   width: 100px;
   background-color: transparent;
@@ -257,33 +182,24 @@ main .statistics ul li .text {
   font-size: 18px;
   line-height: 34px;
 }
-
 .course ul li .right {
   width: 210px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .course ul li .right img {
   width: 140px;
 }
-
 .course ul li .choose {
   width: 50%;
   margin: 0 auto;
   text-align: center;
 }
-
 .course ul li .choose .title {
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
 }
-
 .course ul li .choose button {
   background-color: transparent;
   border: 0;
@@ -294,20 +210,16 @@ main .statistics ul li .text {
 
 .education {
   margin-top: 140px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .education .img {
   margin-top: 42px;
   width: 100%;
   position: relative;
 }
-
 .education .img img {
   width: 100%;
 }
-
 .education .img button {
   position: absolute;
   width: 65px;
@@ -318,18 +230,13 @@ main .statistics ul li .text {
   border-radius: 50%;
   background-color: #fff;
 }
-
 .education ul {
   width: 100%;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
 }
-
 .education ul li {
   width: 22%;
 }
-
 .education ul li .number {
   margin-top: 42px;
   font-weight: 700;
@@ -337,18 +244,15 @@ main .statistics ul li .text {
   line-height: 56px;
   color: #FCC344;
 }
-
 .education ul li hr {
   margin-top: 14px;
 }
-
 .education ul li .title {
   margin-top: 34px;
   font-weight: 500;
   font-size: 28px;
   line-height: 32px;
 }
-
 .education ul li .text {
   margin-top: 12px;
   font-weight: 400;
@@ -359,7 +263,75 @@ main .statistics ul li .text {
 
 .experts {
   margin-top: 140px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-/*# sourceMappingURL=common.css.map */
+.experts ul {
+  margin-top: 38px;
+}
+.experts ul li {
+  width: 23%;
+}
+.experts ul li img {
+  border-radius: 30px;
+}
+.experts ul li .name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 19px;
+}
+.experts ul li .desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+  margin-top: 12px;
+}
+
+.students {
+  margin-top: 140px;
+  flex-wrap: wrap;
+}
+.students .card-column {
+  width: 31%;
+}
+.students .cards {
+  margin-top: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+}
+.students .cards .card {
+  margin-bottom: 30px;
+  width: 100%;
+  background: #F7F7F7;
+  border-radius: 24px;
+  padding: 22px 24px;
+}
+.students .cards .card .user {
+  display: flex;
+  align-items: center;
+}
+.students .cards .card .user .user-info {
+  margin-left: 13px;
+}
+.students .cards .card .video {
+  margin-top: 18px;
+  position: relative;
+}
+.students .cards .card .video img {
+  width: 100%;
+}
+.students .cards .card .video .play-button {
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  transform: translate(-360%, 400%);
+}
+.students .cards .card .text {
+  margin-top: 18px;
+}/*# sourceMappingURL=common.css.map */

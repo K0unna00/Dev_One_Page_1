@@ -256,7 +256,74 @@ main{
 .experts{
     margin-top: 140px;
     flex-wrap: wrap;
-    li{
-
+    ul{
+        margin-top: 38px;
+        li{
+            width: 23%;
+            img{
+                border-radius: 30px;
+            }
+            .name{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                margin-top: 19px;
+            }
+            .desc{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #717171;
+                margin-top: 12px;
+            }
+        }
+    }
+}
+.students{
+    margin-top: 140px;
+    flex-wrap: wrap;
+    .card-column{
+        width: 31%;
+    }
+    .cards{
+        margin-top: 42px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        gap: 30px;
+        .card{
+            margin-bottom:30px;
+            width: 100%;
+            background: #F7F7F7;
+            border-radius: 24px;
+            padding: 22px 24px;
+            .user{
+                display: flex;
+                align-items: center;
+                .user-info{
+                    margin-left: 13px;
+                }
+            }
+            .video{
+                margin-top: 18px;
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .play-button{
+                    width: 48px;
+                    height: 48px;
+                    border: 0;
+                    border-radius: 50%;
+                    background-color: white;
+                    position: absolute;
+                    transform: translate(-360% , 400%); 
+                }
+                
+            }
+            .text{
+                margin-top: 18px;
+            }
+        }
     }
 }
