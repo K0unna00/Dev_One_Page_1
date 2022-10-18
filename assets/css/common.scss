@@ -1,0 +1,262 @@
+@import 'mixins';
+@import 'veriables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main-font;
+    ul{
+        list-style-type: none;
+        @include flex-between;
+    }
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    @include flex-between;
+}
+
+h2{
+    width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.discount{
+    position: relative;
+    background-color: black;
+    height: 70px;
+    .container{
+        height: 100%;
+        img{
+            height: 70px;
+        }
+        .text{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color:white;
+        }
+    }
+    .cross-button{
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 18px;
+        right: 25px;
+    }
+}
+header{
+    margin: 38px;
+    .img{
+        width: 144px;
+    }
+    nav{
+        ul{
+            @include flex-between;
+            gap:32px;
+        }
+    }
+    button{
+        width: 168px;
+        height:48px;
+        border-radius: 16px;
+        background: #FCC344;
+        border: 0;
+        font-weight: bold;
+    }
+}
+main{
+    margin-top: 53px;
+    .hero{
+        height: 568px;
+        background: #F7F7F7;
+        border-radius: 48px;
+        padding: 110px 70px;
+        @include flex-between;
+        .content{
+            width: 420px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 340px;
+            .title{
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 50px;
+            }
+            button{
+                width: 168px;
+                height:48px;
+                border-radius: 16px;
+                background: #FCC344;
+                border: 0;
+                font-weight: bold;
+            }
+        }
+    }
+    .statistics{
+        margin-top: 173px;
+        ul{
+            li{
+                .title{
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 38px;
+                }
+                .text{
+                    margin-top: 11px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #717171;
+                }
+            }
+        }
+    }
+}
+.course{
+    margin-top: 140px;
+    flex-wrap: wrap;
+    ul{
+        margin-top: 42px;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        li{
+            width: 570px;
+            height:351px;
+            padding: 40px 0 30px 40px;
+            background: #F7F7F7;
+            border-radius: 32px;
+            @include flex-between;
+            .content{
+                width: 360px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                .duration{
+                    width: max-content;
+                    background: #FCC344;
+                    margin-bottom: 16px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 16px;
+                    padding: 4px 14px;
+                }
+                .title{
+                    margin-bottom: 12px;
+                    font-size: 28px;
+                    font-weight: 700;
+                    line-height: 32px;
+                }
+                .text{
+                    margin-bottom: 43px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: #717171;
+                }
+                button{
+                    width: 100px;
+                    background-color: transparent;
+                    border: 0;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 34px;
+                }
+            }
+            .right{
+                width: 210px;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 140px;
+                }
+            }
+            .choose{
+                width: 50%;
+                margin: 0 auto;
+                text-align: center;
+                .title{
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 32px;
+                }
+                button{
+                    background-color: transparent;
+                    border: 0;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 34px;
+                }
+            }
+        }
+    }
+}
+.education{
+    margin-top: 140px;
+    flex-wrap: wrap;
+    .img{
+        margin-top: 42px;
+        width: 100%;
+        position: relative;
+        img{
+            width: 100%;
+        }
+        button{
+            position: absolute;
+            width: 65px;
+            height: 65px;
+            top: 117px;
+            right:552px;
+            border: 0;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+    }
+    ul{
+        width: 100%;
+        align-items: flex-start;
+        li{
+            width: 22%;
+            .number{
+                margin-top: 42px;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 56px;
+                color: #FCC344;
+            }
+            hr{
+                margin-top: 14px;
+            }
+            .title{
+                margin-top: 34px;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 32px;
+            }
+            .text{
+                margin-top: 12px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+                color: #717171;
+            }
+        }
+    }
+}
+.experts{
+    margin-top: 140px;
+    flex-wrap: wrap;
+    li{
+
+    }
+}
