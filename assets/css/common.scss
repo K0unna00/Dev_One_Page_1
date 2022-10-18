@@ -1,46 +1,52 @@
 @import 'mixins';
 @import 'veriables';
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $main-font;
-    ul{
+
+    ul {
         list-style-type: none;
         @include flex-between;
     }
 }
-.container{
+
+.container {
     width: 1170px;
     margin: 0 auto;
     @include flex-between;
 }
 
-h2{
+h2 {
     width: 100%;
     font-weight: 700;
     font-size: 48px;
     line-height: 52px;
 }
 
-.discount{
+.discount {
     position: relative;
     background-color: black;
     height: 70px;
-    .container{
+
+    .container {
         height: 100%;
-        img{
+
+        img {
             height: 70px;
         }
-        .text{
+
+        .text {
             font-weight: 700;
             font-size: 24px;
             line-height: 32px;
-            color:white;
+            color: white;
         }
     }
-    .cross-button{
+
+    .cross-button {
         width: 33px;
         height: 33px;
         border-radius: 50%;
@@ -53,48 +59,57 @@ h2{
         right: 25px;
     }
 }
-header{
+
+header {
     margin: 38px;
-    .img{
+
+    .img {
         width: 144px;
     }
-    nav{
-        ul{
+
+    nav {
+        ul {
             @include flex-between;
-            gap:32px;
+            gap: 32px;
         }
     }
-    button{
+
+    button {
         width: 168px;
-        height:48px;
+        height: 48px;
         border-radius: 16px;
         background: #FCC344;
         border: 0;
         font-weight: bold;
     }
 }
-main{
+
+main {
     margin-top: 53px;
-    .hero{
+
+    .hero {
         height: 568px;
         background: #F7F7F7;
         border-radius: 48px;
         padding: 110px 70px;
         @include flex-between;
-        .content{
+
+        .content {
             width: 420px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             height: 340px;
-            .title{
+
+            .title {
                 font-weight: 700;
                 font-size: 44px;
                 line-height: 50px;
             }
-            button{
+
+            button {
                 width: 168px;
-                height:48px;
+                height: 48px;
                 border-radius: 16px;
                 background: #FCC344;
                 border: 0;
@@ -102,16 +117,19 @@ main{
             }
         }
     }
-    .statistics{
+
+    .statistics {
         margin-top: 173px;
-        ul{
-            li{
-                .title{
+
+        ul {
+            li {
+                .title {
                     font-weight: 700;
                     font-size: 36px;
                     line-height: 38px;
                 }
-                .text{
+
+                .text {
                     margin-top: 11px;
                     font-weight: 400;
                     font-size: 18px;
@@ -122,27 +140,31 @@ main{
         }
     }
 }
-.course{
+
+.course {
     margin-top: 140px;
     flex-wrap: wrap;
-    ul{
+
+    ul {
         margin-top: 42px;
         flex-wrap: wrap;
         gap: 30px;
 
-        li{
+        li {
             width: 570px;
-            height:351px;
+            height: 351px;
             padding: 40px 0 30px 40px;
             background: #F7F7F7;
             border-radius: 32px;
             @include flex-between;
-            .content{
+
+            .content {
                 width: 360px;
                 display: flex;
                 flex-direction: column;
-                justify-content:space-between;
-                .duration{
+                justify-content: space-between;
+
+                .duration {
                     width: max-content;
                     background: #FCC344;
                     margin-bottom: 16px;
@@ -151,20 +173,23 @@ main{
                     line-height: 16px;
                     padding: 4px 14px;
                 }
-                .title{
+
+                .title {
                     margin-bottom: 12px;
                     font-size: 28px;
                     font-weight: 700;
                     line-height: 32px;
                 }
-                .text{
+
+                .text {
                     margin-bottom: 43px;
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 24px;
                     color: #717171;
                 }
-                button{
+
+                button {
                     width: 100px;
                     background-color: transparent;
                     border: 0;
@@ -173,24 +198,29 @@ main{
                     line-height: 34px;
                 }
             }
-            .right{
+
+            .right {
                 width: 210px;
                 display: flex;
                 justify-content: center;
-                img{
+
+                img {
                     width: 140px;
                 }
             }
-            .choose{
+
+            .choose {
                 width: 50%;
                 margin: 0 auto;
                 text-align: center;
-                .title{
+
+                .title {
                     font-weight: 700;
                     font-size: 28px;
                     line-height: 32px;
                 }
-                button{
+
+                button {
                     background-color: transparent;
                     border: 0;
                     font-weight: 500;
@@ -201,49 +231,59 @@ main{
         }
     }
 }
-.education{
+
+.education {
     margin-top: 140px;
     flex-wrap: wrap;
-    .img{
+
+    .img {
         margin-top: 42px;
         width: 100%;
         position: relative;
-        img{
+
+        img {
             width: 100%;
         }
-        button{
+
+        button {
             position: absolute;
             width: 65px;
             height: 65px;
             top: 117px;
-            right:552px;
+            right: 552px;
             border: 0;
             border-radius: 50%;
             background-color: #fff;
         }
     }
-    ul{
+
+    ul {
         width: 100%;
         align-items: flex-start;
-        li{
+
+        li {
             width: 22%;
-            .number{
+
+            .number {
                 margin-top: 42px;
                 font-weight: 700;
                 font-size: 48px;
                 line-height: 56px;
                 color: #FCC344;
             }
-            hr{
+
+            hr {
                 margin-top: 14px;
             }
-            .title{
+
+            .title {
                 margin-top: 34px;
                 font-weight: 500;
                 font-size: 28px;
                 line-height: 32px;
             }
-            .text{
+
+            .text {
                 margin-top: 12px;
                 font-weight: 400;
                 font-size: 18px;
@@ -253,23 +293,29 @@ main{
         }
     }
 }
-.experts{
+
+.experts {
     margin-top: 140px;
     flex-wrap: wrap;
-    ul{
+
+    ul {
         margin-top: 38px;
-        li{
+
+        li {
             width: 23%;
-            img{
+
+            img {
                 border-radius: 30px;
             }
-            .name{
+
+            .name {
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 28px;
                 margin-top: 19px;
             }
-            .desc{
+
+            .desc {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
@@ -279,51 +325,141 @@ main{
         }
     }
 }
-.students{
+
+.students {
     margin-top: 140px;
     flex-wrap: wrap;
-    .card-column{
+
+    .card-column {
         width: 31%;
     }
-    .cards{
+
+    .cards {
         margin-top: 42px;
         display: flex;
         flex-wrap: wrap;
-        align-items:flex-start;
+        align-items: flex-start;
         gap: 30px;
-        .card{
-            margin-bottom:30px;
+
+        .card {
+            margin-bottom: 30px;
             width: 100%;
             background: #F7F7F7;
             border-radius: 24px;
             padding: 22px 24px;
-            .user{
+
+            .user {
                 display: flex;
                 align-items: center;
-                .user-info{
+
+                .user-info {
                     margin-left: 13px;
+
+                    .name {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
                 }
             }
-            .video{
+
+            .video {
                 margin-top: 18px;
                 position: relative;
-                img{
+
+                img {
                     width: 100%;
                 }
-                .play-button{
+
+                .play-button {
                     width: 48px;
                     height: 48px;
                     border: 0;
                     border-radius: 50%;
                     background-color: white;
                     position: absolute;
-                    transform: translate(-360% , 400%); 
+                    transform: translate(-360%, 400%);
                 }
-                
+
             }
-            .text{
+
+            .text {
                 margin-top: 18px;
             }
+        }
+    }
+
+    .black-button {
+        width: 188px;
+        height: 56px;
+        border-radius: 16px;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+    }
+}
+
+.thanks {
+    margin-top: 140px;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    h2 span {
+        color: #717171;
+    }
+
+    .card {
+        background-color: #F7F7F7;
+        margin-top: 48px;
+        width: 31.5%;
+        border-radius: 24px;
+
+        img {
+            width: 100%;
+        }
+
+        .content {
+            padding: 16px 30px;
+
+            .title {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+            .text {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+                color: #717171;
+            }
+        }
+
+    }
+}
+
+.publication {
+    flex-wrap: wrap;
+    margin-top: 140px;
+
+    .menu {
+        margin-top: 27px;
+
+        li {
+            margin: 0 8px;
+
+            button {
+                padding: 9px 24px;
+                border-radius: 20px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+        li:first-child button {
+            margin-left:0;
+            border: 1px solid #FCC344;
+            background-color: #FCC344;
         }
     }
 }
