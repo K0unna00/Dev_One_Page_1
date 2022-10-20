@@ -1,6 +1,5 @@
 @import 'mixins';
 @import 'veriables';
-
 * {
     margin: 0;
     padding: 0;
@@ -91,6 +90,9 @@ header {
         background: #FCC344;
         border: 0;
         font-weight: bold;
+    }
+    .burger-menu{
+        display: none;
     }
 }
 

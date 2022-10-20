@@ -1,0 +1,42 @@
+@media screen and (max-width: 320px) {
+    .container{
+        width: 270px !important;
+    }
+    .discount{
+        display: none;
+    }
+    header{
+        .container{
+            padding-right: 12px;
+        }
+        nav{
+            display: none;
+        }
+        button{
+            display: none;
+        }
+        img{
+            width: 107px;
+        }
+        .burger-menu{
+            display: block !important;
+            i{
+                font-size: 32px;
+            }
+        }
+    }
+    .hero{
+        padding: 16px !important;
+        text-align: start;
+        display: block;
+        img{
+            display: none;
+        }
+        .title{
+            display: block;
+            font-weight: 700;
+            font-size: 26px !important;
+            line-height: 28px !important;
+        }
+    }
+  }
