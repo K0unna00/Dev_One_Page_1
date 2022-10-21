@@ -25,7 +25,7 @@
   }
   .hero {
     padding: 16px !important;
-    text-align: start;
+    text-align: center;
     display: block;
   }
   .hero img {
@@ -36,5 +36,64 @@
     font-weight: 700;
     font-size: 26px !important;
     line-height: 28px !important;
+  }
+  .hero button {
+    margin: 0 auto;
+  }
+  .statistics ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .statistics ul li {
+    margin: 10px 0;
+  }
+  .course {
+    display: block;
+    text-align: center;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .course .card {
+    width: 100%;
+    justify-content: center !important;
+    padding: 0;
+  }
+  .course .card .content {
+    width: 100%;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .course .card .content .duration {
+    margin-top: 10px;
+  }
+  .course .card .content .title {
+    font-size: 22px;
+  }
+  .course .card .right {
+    display: none;
+  }
+  .education {
+    text-align: center;
+  }
+  .education img {
+    display: none;
+  }
+  .education ul {
+    display: block;
+  }
+  .education ul li {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .experts {
+    text-align: center;
+  }
+  .experts li {
+    display: none;
+  }
+  .experts li:first-child {
+    display: block;
+    width: 100%;
   }
 }/*# sourceMappingURL=responsivities.css.map */

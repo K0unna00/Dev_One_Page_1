@@ -156,7 +156,6 @@ main {
 .course {
     margin-top: 140px;
     flex-wrap: wrap;
-
     ul {
         margin-top: 42px;
         flex-wrap: wrap;
@@ -169,7 +168,6 @@ main {
             background: #F7F7F7;
             border-radius: 32px;
             @include flex-between;
-
             .content {
                 width: 360px;
                 display: flex;
