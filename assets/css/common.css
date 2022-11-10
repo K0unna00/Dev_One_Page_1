@@ -229,18 +229,37 @@ main .statistics ul li .text {
   width: 100%;
   position: relative;
 }
+.education .img .images {
+  display: flex;
+  overflow: hidden;
+}
 .education .img img {
   width: 100%;
+  height: 300px;
+  transition: 0.5s;
 }
 .education .img button {
-  position: absolute;
-  width: 65px;
-  height: 65px;
-  top: 117px;
-  right: 552px;
+  width: 30px;
+  height: 30px;
   border: 0;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: transparent;
+  color: red;
+  font-size: 25px;
+}
+.education .img button:hover {
+  font-size: 27px;
+  transform: translateY(-2px);
+}
+.education .img .go-left {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+}
+.education .img .go-right {
+  position: absolute;
+  top: 150px;
+  right: 10px;
 }
 .education ul {
   width: 100%;
