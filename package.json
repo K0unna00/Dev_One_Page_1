@@ -1,0 +1,22 @@
+{
+  "name": "dev_one_page_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K0unna00/Dev_One_Page_1.git"
+  },
+  "author": "K0unna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K0unna00/Dev_One_Page_1/issues"
+  },
+  "homepage": "https://github.com/K0unna00/Dev_One_Page_1#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
