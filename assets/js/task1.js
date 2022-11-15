@@ -6,8 +6,8 @@ var isAccording = function (an, sett) {
     }
     console.log("It is not possible !!");
 };
-var Heci = {
-    name: "HECI",
+var Putin = {
+    name: "Putin",
     age: 50,
     foodPerDay: 0.5,
     typeName: "Hyena",
@@ -24,4 +24,4 @@ var Home = {
     area: 50,
     animals: []
 };
-isAccording(Heci, Home);
+isAccording(Putin, Home);
